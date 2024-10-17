@@ -49,14 +49,3 @@ CUDA_VISIBLE_DEVICES=0 python inference_dataset.py --config ./configs/COCO-81.ya
 | LLama-3-8B w/ use_lower_vram | 24GB |
 | OpenAI API w/o use_lower_vram | 16GB |
 | OpenAI API w/ use_lower_vram | 12GB |
-
-### Citation
-If you find this work useful, please consider citing the following paper:
-```
-@inproceedings{Huang2024SemSegLLM,
-  author = {Huang, Yuantian and Iizuka, Satoshi and Fukui, Kazuhiro},
-  booktitle = {The British Machine Vision Conference (BMVC) 2024},
-  title = {Training-Free Zero-Shot Semantic Segmentation with LLM Refinement},
-  year = {2024},
-}
-```
